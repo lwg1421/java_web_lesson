@@ -16,7 +16,7 @@ public class Employee {
 	private String phone_number;
 	private Date hire_date;
 	private String job_id;
-	private double salary;
+	private int salary;
 	private double commission_pct;
 	private int manager_id;
 	private int departmant_id;
@@ -65,7 +65,7 @@ public class Employee {
 	public double getSalary() {
 		return salary;
 	}
-	public void setSalary(double salary) {
+	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 	public double getCommission_pct() {
